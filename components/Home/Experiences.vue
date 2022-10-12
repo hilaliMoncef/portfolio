@@ -1,22 +1,18 @@
 <template>
-  <div
-    id="works"
-    class="snap-y snap-mandatory h-screen bg-black text-white pt-16 flex flex-col overflow-y-scroll"
-  >
-    <template
-      class="snap-always snap-center flex flex-1 h-full"
-      v-for="experience in experiences"
-      :key="experience.id"
-    >
-      <div class="container max-w-4xl mx-auto h-full px-3 xl:px-0">
-        <SectionTitle :number="2" title="Mes expériences" />
-
-        <div class="mt-5 flex gap-12 flex-1 h-full">
+  <div id="works" class="bg-black text-white pt-16 flex flex-col">
+    <div class="container max-w-4xl mx-auto h-full px-3 xl:px-0">
+      <SectionTitle :number="2" title="Mes expériences" class="mb-5" />
+      <template
+        class="flex flex-1 h-full"
+        v-for="experience in experiences"
+        :key="experience.id"
+      >
+        <div class="flex gap-12 flex-1 h-full">
           <div class="flex flex-col items-center flex-1">
             <div class="w-6 h-6 bg-primary rounded-full"></div>
             <div class="w-[1px] flex-1 bg-white"></div>
           </div>
-          <div>
+          <div class="pb-14">
             <div class="text-xl">
               {{ experience.title }}
             </div>
@@ -32,8 +28,8 @@
             <div class="mt-3" v-html="experience.description"></div>
           </div>
         </div>
-      </div>
-    </template>
+      </template>
+    </div>
   </div>
 </template>
 
