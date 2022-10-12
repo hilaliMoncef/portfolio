@@ -29,7 +29,15 @@
         <h3 class="text-xl">Mes frameworks & outils</h3>
         <ul class="mt-3 flex flex-col gap-2 max-w-sm md:max-w-xl">
           <template v-for="tool in tools" :key="tool.id">
-            <li class="flex items-center gap-2 group">
+            <li
+              class="flex items-center gap-2 group"
+              :class="[
+                tool.name == 'Nuxt.js'
+                  ? 'md:tooltip md:inline-flex md:text-left tooltip-open md:tooltip-right'
+                  : '',
+              ]"
+              data-tip="Ce site est fait avec Nuxt.js v3 !"
+            >
               <span class="w-6 h-6" v-html="tool.icon"></span>
               <div class="flex-1 w-full flex items-center gap-8">
                 <span class="flex-1">{{ tool.name }}</span>

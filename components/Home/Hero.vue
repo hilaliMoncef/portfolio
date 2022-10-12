@@ -2,16 +2,16 @@
   <div class="h-screen container mx-auto pt-16 flex flex-col px-3 xl:px-0">
     <div class="flex items-center h-full">
       <div class="max-w-2xl mx-auto">
-        <div class="text-primary text-opacity-60">Salut, je m'appelle</div>
+        <h1 class="text-primary text-opacity-60">Salut, je m'appelle</h1>
         <div
           class="text-primary text-6xl md:text-8xl font-karla font-bold uppercase"
         >
           Moncef
         </div>
-        <div class="text-muted text-lg">
+        <h2 class="text-muted text-lg">
           Je suis développeur full-stack spécialisé dans la construction
           d'expériences digitales et d'applications complexes web ou desktop.
-        </div>
+        </h2>
         <div class="flex gap-4">
           <a
             href="#about"

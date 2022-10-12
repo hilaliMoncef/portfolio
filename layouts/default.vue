@@ -9,8 +9,6 @@
 <script setup>
 useHead({
   title: "Moncef Hilali - Développeur fullstack",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  charset: "utf-8",
   meta: [
     {
       name: "description",
