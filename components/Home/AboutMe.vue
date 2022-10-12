@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="min-h-screen bg-black text-white scroll-py-16">
+  <div id="about" class="min-h-screen bg-black text-white py-16">
     <div
       class="container max-w-4xl mx-auto flex flex-col-reverse md:flex-row gap-8 px-3 xl:px-0"
     >
@@ -82,10 +82,20 @@
 
           <div class="flex justify-center mt-5">
             <a
-              href="#works"
+              href="#skills"
               class="btn bg-transparent hover:bg-primary border-primary text-primary hover:text-black"
             >
-              Mes expériences
+              <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M17.29 5.71a.996.996 0 0 0-1.41 0L12 9.58L8.11 5.7A.996.996 0 1 0 6.7 7.11l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.984.984 0 0 0 0-1.4z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M17.29 12.3a.996.996 0 0 0-1.41 0L12 16.17l-3.88-3.88a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.993.993 0 0 0-.01-1.4z"
+                />
+              </svg>
+              Mes technologies
             </a>
           </div>
         </div>

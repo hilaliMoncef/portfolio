@@ -3,7 +3,6 @@
     <EmailIndicator />
     <TheHeader />
     <slot />
-    <TheFooter />
   </div>
 </template>
 
