@@ -19,7 +19,13 @@ export default defineNuxtConfig({
           charset: "utf-8",
         },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "canonical",
+          href: "https://moncefhilali.com",
+        },
+      ],
       style: [],
       script: [],
       noscript: [],

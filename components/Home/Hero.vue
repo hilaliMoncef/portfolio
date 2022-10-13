@@ -5,12 +5,12 @@
   >
     <div class="flex items-center h-full">
       <div class="max-w-2xl mx-auto">
-        <h1 class="text-primary text-opacity-60">Salut, je m'appelle</h1>
-        <div
+        <div class="text-primary text-opacity-60">Salut, je m'appelle</div>
+        <h1
           class="text-primary text-6xl md:text-8xl font-karla font-bold uppercase"
         >
           Moncef
-        </div>
+        </h1>
         <h2 class="text-muted text-lg">
           Je suis développeur full-stack spécialisé dans la construction
           d'expériences digitales et d'applications complexes web ou desktop.
