@@ -7,7 +7,7 @@ module.exports = {
         primary: "#64ffda",
         secondary: "#f57dff",
         muted: "#e6f1ff",
-        primaryTint: "rgba(100, 255, 218, 0.1)",
+        primaryTint: "rgba(100, 255, 218, 0.3)",
       },
       fontFamily: {
         sans: ["Inconsolata", "sans-serif"],
