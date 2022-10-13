@@ -13,7 +13,11 @@
         </div>
 
         <div class="flex items-center gap-2">
-          <a href="" class="hover:text-primary">
+          <a
+            href="https://github.com/hilaliMoncef"
+            target="_blank"
+            class="hover:text-primary"
+          >
             <svg width="32" height="32" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
@@ -21,7 +25,11 @@
               />
             </svg>
           </a>
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/moncef-hilali-51963710a/"
+            target="_blank"
+            class="hover:text-primary"
+          >
             <svg width="32" height="32" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
