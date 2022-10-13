@@ -6,6 +6,7 @@
       <div class="navbar">
         <div class="flex-1">
           <a
+            href="#hero"
             class="flex items-center cursor-pointer normal-case text-xl hover:text-secondary"
             >Moncef Hilali
             <div class="w-2 h-2 ml-2 animate-ping bg-secondary rounded"></div

@@ -1,5 +1,8 @@
 <template>
-  <div class="h-screen container mx-auto pt-16 flex flex-col px-3 xl:px-0">
+  <div
+    id="hero"
+    class="h-screen container mx-auto pt-16 flex flex-col px-3 xl:px-0"
+  >
     <div class="flex items-center h-full">
       <div class="max-w-2xl mx-auto">
         <h1 class="text-primary text-opacity-60">Salut, je m'appelle</h1>
