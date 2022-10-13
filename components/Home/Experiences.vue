@@ -17,13 +17,16 @@
               {{ experience.title }}
             </div>
             <div class="text-white/60">
-              {{ experience.dates }} -
-              <a
-                :href="experience.website"
-                class="hover:text-primary transition"
-                target="_blank"
-                >{{ experience.website }}</a
-              >
+              {{ experience.dates }}
+              <span v-if="experience.website">
+                -
+                <a
+                  :href="experience.website"
+                  class="hover:text-primary transition"
+                  target="_blank"
+                  >{{ experience.website }}</a
+                >
+              </span>
             </div>
             <div class="mt-3" v-html="experience.description"></div>
           </div>
