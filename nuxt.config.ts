@@ -1,7 +1,12 @@
+import redirectSSL from "redirect-ssl";
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   buildModules: ["@nuxtjs/google-fonts"],
+  serverMiddleware: [
+    redirectSSL.create({ enabled: process.env.NODE_ENV === "production" }),
+  ],
   googleFonts: {
     families: {
       Karla: true,
