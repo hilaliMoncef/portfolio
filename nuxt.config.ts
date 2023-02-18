@@ -2,8 +2,9 @@ import redirectSSL from "redirect-ssl";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   buildModules: ["@nuxtjs/google-fonts"],
+  plugins: [{ src: "~/plugins/vercel.ts", mode: "client" }],
   serverMiddleware: [
     redirectSSL.create({ enabled: process.env.NODE_ENV === "production" }),
   ],

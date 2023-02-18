@@ -55,8 +55,35 @@
 </template>
 
 <script setup>
-const selectedExperience = ref(0);
 const experiences = [
+  {
+    id: 6,
+    company: "Spyne",
+    title: "Lead dev full-stack",
+    website: "https://spyne.app",
+    dates: "Novembre 2022 - Aujourd'hui",
+    description: `
+        <p class="mb-2">Création from scratch de l'outil de dataviz Spyne dédié au professionnels de digital marketing et permettant de visualiser, en consolidant différentes sources de données, les indicateurs de suivi de performance de campagnes publicitaires. </p>
+        <p class="mb-2">Développement avec Vue 3 en frontend, Python et Django en backend (RESTful API). CI/CD sur Heroku/Vercel.</p>
+        <p class="mb-2">Bridge optimisé avec différentes API et notamment une API propriétaire pour orchestrer la récupération et le retraitement Big Data (Airflow, BigQuery & IAP).</p>
+        <p class="mb-2">Création de tout le design system et d'une librairie d'icônes custom avec Tailwind CSS.</p>
+        <p class="mb-2">Développement d'un module sur-mesure pour le rappatriement de data avec Cube.js.</p>
+    `,
+  },
+  {
+    id: 5,
+    company: "MORFO",
+    title: "Lead dev full-stack",
+    website: "https://morfo.rest",
+    dates: "Octobre 2022 - Novembre 2022",
+    description: `
+        <p class="mb-2">Création d'un dashboard pour les clients de MORFO pour leur permettre de suivre l'évolution des projets de reforestation. </p>
+        <p class="mb-2">Développement du dashboard avec Next.js 13 (server-components) avec Supabase en BaaS. CI/CD sur Vercel directement.</p>
+        <p class="mb-2">Plusieurs dashboards permettant de visualiser KPI, vue satellite et follow-up sur les données de reforstation.</p>
+        <p class="mb-2">Visualisation de cartographie 3D (avec Three.js) provenant des drones et des technologies propriétaires de MORFO.</p>
+        <p class="mb-2">Différents niveaux d'accès et de droits pour les clients avec un système d'invitation de collaborator. Un back-office d'administration est également incorporé directement à l'app.</p>
+    `,
+  },
   {
     id: 1,
     company: "Neoresid",

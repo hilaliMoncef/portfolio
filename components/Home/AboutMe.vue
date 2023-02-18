@@ -8,9 +8,8 @@
 
         <div class="mt-5 text-lg">
           <p class="mb-4">
-            Bonjour! Je m'appelle <span class="text-primary">Moncef</span>. Je
-            suis développeur full-stack basé à Paris, dans le 9ème
-            arrondissement.
+            Bonjour! Je m'appelle <span class="text-primary">Moncef</span>. J'ai
+            27 ans. Je suis développeur full-stack basé à Paris.
           </p>
           <p class="mb-4">
             J'ai commencé la programmation à l'âge de 14 ans en essayant
@@ -22,7 +21,8 @@
           <p class="mb-4">
             Ma curiosité et mon côté passionné font que je suis toujours au
             courant des dernières nouveautés dans mon domaine, des dernières
-            sorties et des derniers framework à la mode.
+            sorties et des derniers framework en vogue. La veille technique est
+            une qualité indispensable pour devenir et rester un bon développeur.
           </p>
           <p class="mb-6">
             J'ai travaillé dans différents milieux auparavant, de la start-up en
@@ -30,8 +30,9 @@
             trader et développeur logiciel.
           </p>
           <p class="mb-4">
-            Je fais principalement du développement full-stack avec une
-            préference pour
+            Je maîtrise différents langages dont les principaux que sont Python
+            et Javascript. En termes de stack technique, j'ai une préference
+            pour
             <a
               href="https://www.djangoproject.com/"
               target="_blank"
@@ -51,14 +52,32 @@
               href="https://vuejs.org/"
               target="_blank"
               class="bg-primary p-1 text-black"
-              >Vue.js</a
-            >
+              >Vue 3
+            </a>
             ou
             <a
-              href="https://v3.nuxtjs.org/"
+              href="https://beta.reactjs.org/"
               target="_blank"
               class="bg-primary p-1 text-black"
-              >Nuxt.js</a
+              >React</a
+            >.
+          </p>
+          <p class="mb-2">
+            En termes de meta frameworks, j'utilise principalement
+            <a
+              href="https://nextjs.org/"
+              target="_blank"
+              class="bg-primary p-1 text-black"
+            >
+              Next.js
+            </a>
+            ou
+            <a
+              href="https://nuxt.com/"
+              target="_blank"
+              class="bg-primary p-1 text-black"
+            >
+              Nuxt.js </a
             >.
           </p>
           <p class="mb-2">
@@ -123,9 +142,12 @@
 const technologies = [
   { id: 1, name: "Javascript" },
   { id: 2, name: "Typescript" },
-  { id: 10, name: "Node.js" },
-  { id: 3, name: "Vue.js" },
-  { id: 4, name: "Nuxt.js" },
+  { id: 11, name: "Node.js" },
+  { id: 3, name: "Vue 3" },
+  { id: 12, name: "React" },
+  { id: 14, name: "React Native" },
+  { id: 4, name: "Nuxt 3" },
+  { id: 13, name: "Next.js 13" },
   { id: 5, name: "NestJS" },
   { id: 6, name: "Python" },
   { id: 7, name: "Django et Django DRF" },

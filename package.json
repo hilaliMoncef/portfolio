@@ -10,11 +10,12 @@
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "nuxt": "^3.0.0-rc.11"
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "nuxt": "^3.2.2"
   },
   "dependencies": {
-    "daisyui": "^2.29.0",
+    "@vercel/analytics": "^0.1.10",
+    "daisyui": "^2.50.1",
     "redirect-ssl": "^3.0.0"
   }
 }
