@@ -77,8 +77,19 @@
               target="_blank"
               class="bg-primary p-1 text-black"
             >
-              Nuxt</a
+              Nuxt 3</a
             >.
+          </p>
+          <p class="mb-6">
+            Concernant le développement mobile, je travaille principalement avec
+            <a
+              href="https://reactnative.dev/"
+              target="_blank"
+              class="bg-primary p-1 text-black"
+            >
+              React Native</a
+            >
+            pour construire des applications mobiles natives sur iOS et Android.
           </p>
           <p class="mb-2">
             Voici certaines des technologies avec lesquelles j'ai récemment
