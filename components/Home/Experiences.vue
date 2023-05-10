@@ -89,7 +89,7 @@ const experiences = [
     company: "Neoresid",
     title: "Développeur fullstack",
     website: "https://neoresid.com",
-    dates: "Août - Octobre 2022",
+    dates: "Juin 2022 - Octobre 2022",
     description: `
         <p class="mb-2">Refonte totale du stack web de Neoresid from scratch. </p>
         <p class="mb-2">Développement sous Django avec un site permettant de mettre en avant les différentes résidences étudiantes de la société partout en France, de visualiser et de déposer un dossier de candidature.</p>
@@ -98,10 +98,22 @@ const experiences = [
     `,
   },
   {
+    id: 9,
+    title: "Développeur mobile",
+    website: "https://skeepit.com",
+    dates: "Avril 2022 - Juillet 2022",
+    description: `
+        <p class="mb-2">Skeepit est une application mobile qui digitalise les files d'attente des restaurants les plus fréquentés des grandes villes françaises. </p>
+        <p class="mb-2">En tant que développeur mobile, j'ai integré l'équipe dans le cadre du projet de réecriture de l'application entièrement sous React Native (migration d'un stack sous Cordova).</p>
+        <p class="mb-2">Il a fallu tout repenser, notamment en termes d'UI / UX pour un parcours simplifié. Il fallait également simplifier le backend pour passer à une API avec une architecture et des normes plus récentes. </p>
+        <p class="mb-2">Un gros focus a été mis sur la sécurité et la fiabilité : des facteurs de succès importants pour ce genre d'application.</p>
+    `,
+  },
+  {
     id: 2,
     title: "Développeur fullstack",
     website: "https://asapidea.com",
-    dates: "Juillet 2022 - Août 2022",
+    dates: "Janvier 2022 - Avril 2022",
     description: `
         <p class="mb-2">Asapidea est une entreprise française qui vise à mobiliser des communautés d’étudiants pour répondre aux problématiques des entreprises. </p>
         <p class="mb-2">Asapidea organise des défis à idées sur une plateforme dédiée aux étudiants. Ils profitent d’un espace de réflexion unique et personnalisé selon vos enjeux.</p>

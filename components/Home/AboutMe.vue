@@ -77,7 +77,7 @@
               target="_blank"
               class="bg-primary p-1 text-black"
             >
-              Nuxt.js </a
+              Nuxt</a
             >.
           </p>
           <p class="mb-2">

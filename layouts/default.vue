@@ -13,7 +13,7 @@ useHead({
     {
       name: "description",
       content:
-        "Bonjour, je m'appelle Moncef et je suis développeur fullstack basé à Paris depuis 2015. Je travaille principalement avec Python (Django) et Javascript (Vue.js / Nuxt.js). Découvrez mes travaux, mes compétences et comment nous pouvons collaborer ensemble.",
+        "Bonjour, je m'appelle Moncef et je suis développeur fullstack basé à Paris depuis 2015. Je travaille principalement avec Python (Django), Typescript (Vue 3 / Nuxt.js ou React / Next.js) et tRPC. Découvrez mes travaux, mes compétences et comment nous pouvons collaborer ensemble.",
     },
   ],
   htmlAttrs: {
