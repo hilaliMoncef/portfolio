@@ -97,7 +97,7 @@ const experiences = [
     description: `
         <p class="mb-2">Création d'un dashboard pour les clients de MORFO pour leur permettre de suivre l'évolution des projets de reforestation. </p>
         <p class="mb-2">Développement du dashboard avec Next.js 13 (server components) avec Supabase en BaaS. CI/CD sur Vercel directement.</p>
-        <p class="mb-2">Plusieurs dashboards permettant de visualiser les KPIs, les vues satellite et recevoir le follow-up sur les données de reforstation.</p>
+        <p class="mb-2">Plusieurs dashboards permettant de visualiser les KPIs, les vues satellite et recevoir le follow-up sur les données de reforestation.</p>
         <p class="mb-2">Visualisation de cartographie 3D (avec Three.js) provenant des drones et des technologies propriétaires de MORFO.</p>
         <p class="mb-2">Différents niveaux d'accès et de droits pour les clients avec un système d'invitation de collaborator. Un back-office d'administration est également incorporé directement à l'app.</p>
     `,
@@ -109,8 +109,8 @@ const experiences = [
     website: "https://fr.skeepit.com/",
     dates: "Avril 2022 - Juillet 2022",
     description: `
-        <p class="mb-2">Skeepit est une application mobile qui digitalise les files d'attente des restaurants les plus fréquentés des grandes villes françaises. </p>
-        <p class="mb-2">En tant que développeur mobile, j'ai integré l'équipe dans le cadre du projet de réecriture de l'application entièrement sous React Native (migration d'un stack sous Cordova).</p>
+        <p class="mb-2">Skeepit est une application mobile qui digitalise les files d'attente des restaurants et des événements les plus fréquentés.</p>
+        <p class="mb-2">En tant que développeur mobile, j'ai intégré l'équipe dans le cadre du projet de réecriture de l'application entièrement sous React Native (migration d'un stack sous Cordova).</p>
         <p class="mb-2">Il a fallu tout repenser, notamment en termes d'UI / UX pour un parcours simplifié. Il fallait également simplifier le backend pour passer à une API avec une architecture et des normes plus récentes. </p>
         <p class="mb-2">Un gros focus a été mis sur la sécurité et la fiabilité : des facteurs de succès importants pour ce genre d'application.</p>
     `,
