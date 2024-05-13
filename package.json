@@ -9,13 +9,13 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxtjs/google-fonts": "^3.0.0",
-    "@nuxtjs/tailwindcss": "^6.6.8",
-    "nuxt": "^3.4.3"
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt": "^3.11.2"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.0.1",
-    "daisyui": "^2.51.6",
+    "@vercel/analytics": "^1.2.2",
+    "daisyui": "^4.11.1",
     "redirect-ssl": "^3.0.0"
   }
 }

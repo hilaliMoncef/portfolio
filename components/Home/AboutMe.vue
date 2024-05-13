@@ -34,50 +34,30 @@
             et Javascript. En termes de stack technique, j'ai une préference
             pour
             <a
-              href="https://www.djangoproject.com/"
+              href="https://www.nuxt.com/"
               target="_blank"
               class="bg-primary p-1 text-black"
-              >Django</a
+              >Nuxt</a
             >
-            ou
+            et l'écosystème
             <a
-              href="https://www.djangoproject.com/"
+              href="https://www.vuejs.org/"
               target="_blank"
               class="bg-primary p-1 text-black"
-              >Node.js</a
-            >
-            (Express ou NestJS) en backend. Pour le front-end, j'utilise
-            principalement
+              >Vue</a
+            >. Je travaille également très souvent avec
             <a
-              href="https://vuejs.org/"
-              target="_blank"
-              class="bg-primary p-1 text-black"
-              >Vue 3
-            </a>
-            ou
-            <a
-              href="https://beta.reactjs.org/"
+              href="https://react.dev/"
               target="_blank"
               class="bg-primary p-1 text-black"
               >React</a
-            >.
-          </p>
-          <p class="mb-2">
-            En termes de meta frameworks, j'utilise principalement
+            >
+            et
             <a
               href="https://nextjs.org/"
               target="_blank"
               class="bg-primary p-1 text-black"
-            >
-              Next.js
-            </a>
-            ou
-            <a
-              href="https://nuxt.com/"
-              target="_blank"
-              class="bg-primary p-1 text-black"
-            >
-              Nuxt 3</a
+              >Next.js</a
             >.
           </p>
           <p class="mb-6">
@@ -151,14 +131,15 @@
 
 <script setup>
 const technologies = [
-  { id: 1, name: "Javascript" },
   { id: 2, name: "Typescript" },
   { id: 11, name: "Node.js" },
   { id: 3, name: "Vue 3" },
   { id: 12, name: "React" },
   { id: 14, name: "React Native" },
   { id: 4, name: "Nuxt 3" },
-  { id: 13, name: "Next.js 13" },
+  { id: 13, name: "Next.js 14" },
+  { id: 16, name: "Tailwind" },
+  { id: 17, name: "Prisma" },
   { id: 5, name: "NestJS" },
   { id: 6, name: "Python" },
   { id: 7, name: "Django et Django DRF" },

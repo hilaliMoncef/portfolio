@@ -71,17 +71,48 @@ const experiences = [
     `,
   },
   {
+    id: 10,
+    company: "EatNow",
+    title: "CTO",
+    website: "https://eatnow.ma",
+    dates: "Juillet 2022 - Novembre 2022",
+    description: `
+        <p class="mb-2">EatNow est le leader marocain de la réservation en ligne pour les restaurants. Le but de la plateforme est d’aider les restaurateurs africains à se digitaliser, capter plus de réservations et améliorer leurs taux d’occupation et de no-shows.</p>
+        <p class="mb-2">En tant que CTO, j’ai du choisir la stack technique et développer from scratch la totalité de l’infrastructure. Aujourd’hui ce logiciel assure plus de 30000 réservations par mois et dispose d’une centaine d’utilisateurs/restaurateurs actifs par jour.</p>
+        <ul class="pl-6 list-disc mb-2">
+          <li>Nuxt 3 en full-stack, hébergé sur Vercel</li>
+          <li>Redis via Upstash</li>
+          <li>Postgres via Supabase, avec Prisma comme ORM</li>
+          <li>Github Actions pour la CI/CD</li>
+          <li>Konva pour la manipulation d’un environnement 2D (plan de salle etc..)</li>
+        </ul>
+    `,
+  },
+  {
     id: 5,
     company: "MORFO",
     title: "Lead dev full-stack",
     website: "https://morfo.rest",
-    dates: "Octobre 2022 - Novembre 2022",
+    dates: "Septembre 2022 - Novembre 2022",
     description: `
         <p class="mb-2">Création d'un dashboard pour les clients de MORFO pour leur permettre de suivre l'évolution des projets de reforestation. </p>
-        <p class="mb-2">Développement du dashboard avec Next.js 13 (server-components) avec Supabase en BaaS. CI/CD sur Vercel directement.</p>
-        <p class="mb-2">Plusieurs dashboards permettant de visualiser KPI, vue satellite et follow-up sur les données de reforstation.</p>
+        <p class="mb-2">Développement du dashboard avec Next.js 13 (server components) avec Supabase en BaaS. CI/CD sur Vercel directement.</p>
+        <p class="mb-2">Plusieurs dashboards permettant de visualiser les KPIs, les vues satellite et recevoir le follow-up sur les données de reforstation.</p>
         <p class="mb-2">Visualisation de cartographie 3D (avec Three.js) provenant des drones et des technologies propriétaires de MORFO.</p>
         <p class="mb-2">Différents niveaux d'accès et de droits pour les clients avec un système d'invitation de collaborator. Un back-office d'administration est également incorporé directement à l'app.</p>
+    `,
+  },
+  {
+    id: 9,
+    company: "Skeepit",
+    title: "Développeur React Native",
+    website: "https://fr.skeepit.com/",
+    dates: "Avril 2022 - Juillet 2022",
+    description: `
+        <p class="mb-2">Skeepit est une application mobile qui digitalise les files d'attente des restaurants les plus fréquentés des grandes villes françaises. </p>
+        <p class="mb-2">En tant que développeur mobile, j'ai integré l'équipe dans le cadre du projet de réecriture de l'application entièrement sous React Native (migration d'un stack sous Cordova).</p>
+        <p class="mb-2">Il a fallu tout repenser, notamment en termes d'UI / UX pour un parcours simplifié. Il fallait également simplifier le backend pour passer à une API avec une architecture et des normes plus récentes. </p>
+        <p class="mb-2">Un gros focus a été mis sur la sécurité et la fiabilité : des facteurs de succès importants pour ce genre d'application.</p>
     `,
   },
   {
@@ -89,24 +120,12 @@ const experiences = [
     company: "Neoresid",
     title: "Développeur fullstack",
     website: "https://neoresid.com",
-    dates: "Juin 2022 - Octobre 2022",
+    dates: "Avril 2022 - Juillet 2022",
     description: `
         <p class="mb-2">Refonte totale du stack web de Neoresid from scratch. </p>
         <p class="mb-2">Développement sous Django avec un site permettant de mettre en avant les différentes résidences étudiantes de la société partout en France, de visualiser et de déposer un dossier de candidature.</p>
         <p class="mb-2">Une autre plateforme d'administration a été développé permettant à l'équipe marketing de modifier complètement le contenu du site et de paramétrer les fonctionnalités complexes de celui-ci. Les différents employés au niveau des résidences ont également un accès spécifique pour gérer leur résidence.</p>
         <p class="mb-2">Un gros travail a été fait au niveau du SEO pour attirer un maximum de trafic.</p>
-    `,
-  },
-  {
-    id: 9,
-    title: "Développeur mobile",
-    website: "https://skeepit.com",
-    dates: "Avril 2022 - Juillet 2022",
-    description: `
-        <p class="mb-2">Skeepit est une application mobile qui digitalise les files d'attente des restaurants les plus fréquentés des grandes villes françaises. </p>
-        <p class="mb-2">En tant que développeur mobile, j'ai integré l'équipe dans le cadre du projet de réecriture de l'application entièrement sous React Native (migration d'un stack sous Cordova).</p>
-        <p class="mb-2">Il a fallu tout repenser, notamment en termes d'UI / UX pour un parcours simplifié. Il fallait également simplifier le backend pour passer à une API avec une architecture et des normes plus récentes. </p>
-        <p class="mb-2">Un gros focus a été mis sur la sécurité et la fiabilité : des facteurs de succès importants pour ce genre d'application.</p>
     `,
   },
   {
